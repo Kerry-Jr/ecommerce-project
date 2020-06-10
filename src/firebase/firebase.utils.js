@@ -27,6 +27,8 @@ const config = {
           const { displayName, email, photoURL } = userAuth;
           const createdAt = new Date();
 
+
+
           try {
             await userRef.set({
                displayName,
