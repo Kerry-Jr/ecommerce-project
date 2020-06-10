@@ -14,8 +14,7 @@ const config = {
 
     export const createUserProfileDocument = async (userAuth, additionalData) => {
       if(!userAuth) return;
-      // console.log('Kerrys data below')
-      // console.log(userAuth);
+
 
       const userRef = await firestore.doc(`users/${userAuth.uid}`);
 
@@ -39,7 +38,6 @@ const config = {
             })
           } catch (error) {
               console.log('error creating user', error.message);
-              // console.log(error, 'msg: Error creating user Kerry.. Please check you code and firebase dashboard')
           }
       }
 
