@@ -64,8 +64,9 @@ class App extends React.Component {
                     />
                     <Route exact='/checkout' component={CheckoutPage} />
               </Switch>
-
+              <p>React E-commerce project made by Kerry Smith &copy; </p>
           </div>
+
       );
   }
 }
