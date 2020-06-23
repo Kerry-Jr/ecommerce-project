@@ -1,4 +1,5 @@
 import React from 'react';
+// import styled from 'styled-components';
 
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
@@ -16,6 +17,8 @@ import { selectCurrentUser } from "./redux/user/user.selectors";
 import { createStructuredSelector } from "reselect";
 
 import './App.css';
+
+
 
 class App extends React.Component {
     // constructor(props) {
