@@ -68,9 +68,14 @@ export const convertCollectionsSnapshotToMap = (collections) => {
             items
         }
     });
+    // console.log(transformedCollection);
 
-    console.log(transformedCollection);
-    console.log('Kerry transformed into a WeReWoLf');
+    return transformedCollection.reduce((accumulator, collection) => {
+        accumulator[collection.title.toLowerCase()] = collection;
+        return accumulator;
+    }, {})
+
+
 
 };
 
