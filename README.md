@@ -59,4 +59,4 @@ Kerry Smith
 
 
 
-![ss1](./src/assets/crwn.png)
+![ss1](./assets/crwn.png)
