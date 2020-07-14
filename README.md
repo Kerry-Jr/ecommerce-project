@@ -6,7 +6,7 @@
 
 # Table of Contents
 
-- [**Planet**](#planet)
+- [**CRWN clothing**](#CRWN)
 - [Table of Contents](#table-of-contents)
 - [Project Description](#project-description)
 - [Installation](#installation)
