@@ -1,68 +1,62 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](https://www.contributor-covenant.org/version/2/0/code_of_conduct/)
 
-## Available Scripts
+# **CRWN clothing Ltd.**
 
-In the project directory, you can run:
+# **React project from Udemy course**
 
-### `npm start`
+# Table of Contents
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [**Planet**](#planet)
+- [Table of Contents](#table-of-contents)
+- [Project Description](#project-description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Tests](#tests)
+- [License](#license)
+- [Contributions](#contributions)
+- [Questions](#questions)
+- [Developers](#developers)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+# Project Description
 
-### `npm test`
+The project is an e-commerce web application. Registered users which can sign-in with google or can sign up with any email address and password of their choosing. Users can create shopping carts with items from the clothing store and then purchase items with stripe payment and a dummy credit card number provided. 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Installation
 
-### `npm run build`
+The application uses the following: Firebase, Express, React, Redux, SaSS, stripe payment, google Oauth2, and NodeJS.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Usage
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+The application is located here: [CRWN](https://react-crwn-clothing-app.herokuapp.com/). In order to use this application a user must sign in or sign up for an account with CRWN clothing Ltd.  User can decide to use any email address and password or the user can sign in and or sign up with their Google account. At the moment the only option is Google Oauth. In the future, the user will be able to login with facebook, twitter, or another strategy that is a trusted choice for the users.  After user makes an account and sign's in the user can now browse CRWN clothing app and can see the whole store at once or by department. User can add items to the shopping cart, edit quantity with sub-total update in real time and then use the test / dummy credit card number to checkout.  Future deployment users will get a confirmation email for both when they make a new account and also when they successfully purchase items. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Tests
 
-### `npm run eject`
+In order to run tests on this project, one may clone the respository and test it locally. Prior to running the application, the necessary packages must be installed and can be done by running the following command in the terminal while inside the project's root directory:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```sh 
+npm i
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Licensed under the [MIT License](https://spdx.org/licenses/MIT.html).
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Contributions
 
-## Learn More
+This project is currently not accepting any contributions.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Questions
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+If you have any questions, please contact the project developers by clicking on the email addresses listed below.
 
-### Code Splitting
+# Developers
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Kerry Smith  
+[Github](https://github.com/Kerry-Jr)  
+<kerrysfs@gmail.com>
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+![ss1](./src/assets/crwn.png)
